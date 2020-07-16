@@ -15,3 +15,4 @@ class EmailAddressParser
  ##bademails = "something@google.com, someone@gmail.com person@yahoo.com, idk@protonmail.com"
  ##parser = EmailAddressParser.new(bademails)
  ##parser.parse
+ 
