@@ -2,6 +2,7 @@
 # emails. The parse method on the class should separate them into
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
+
 class EmailAddressParser
     attr_accessor :emails
  
@@ -15,4 +16,3 @@ class EmailAddressParser
  ##bademails = "something@google.com, someone@gmail.com person@yahoo.com, idk@protonmail.com"
  ##parser = EmailAddressParser.new(bademails)
  ##parser.parse
- 
